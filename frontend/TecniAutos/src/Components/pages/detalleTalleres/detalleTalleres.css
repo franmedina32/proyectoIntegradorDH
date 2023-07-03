@@ -1,0 +1,347 @@
+.encabezado {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  height: 90px;
+  color: var(--azul);
+  border: 2px;
+}
+
+.encabezado .flecha{
+  margin: 0;
+}
+
+.encabezado .taller {
+  display: flex;
+  align-items: baseline;
+}
+
+.taller h1 {
+  margin: 10px 20px;
+}
+
+.taller svg:hover {
+  cursor: pointer;
+}
+
+.encabezado h1 h6 {
+  color: black;
+  margin-top: -2px;
+  font-size: 17px;
+}
+
+#compartir {
+  border: none;
+  background-color: white;
+  margin-top: 4px;
+  margin-bottom: 35px;
+  margin-left: -710px;
+}
+
+.share-btn > a {
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 12px;
+  font-family: Verdana, Arial;
+}
+.share-btn > a:hover {
+  cursor: pointer;
+}
+
+#compartir:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.button.containerImg {
+  width: 9px;
+  height: 9px;
+}
+.containerImg {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.share {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.redes {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+
+.containerImg div {
+  width: 50%;
+  padding: 10px;
+}
+
+.imgPrincipal {
+  margin-left: 10px;
+}
+.imgPrincipalBox img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 2px solid var(--azul);
+}
+
+.imgPrincipal img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 5px solid var(--azul);
+  object-fit: cover;
+}
+
+.imgSecundarias img {
+  border-radius: 5px;
+  border: 5px solid var(--azul);
+  width: 45%;
+  height: 48.6%;
+  margin: 0 5px 3px 5px;
+  z-index: 1;
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+
+.imgSecundarias :hover {
+  opacity: 100;
+}
+
+.descripcion {
+  margin-top: 25px;
+  background-color: white;
+  padding: 10px;
+}
+
+.descripcion p {
+  text-align: justify;
+  font-size: 20px;
+  padding: 20px;
+}
+.Reservar {
+  display: inline-block;
+  margin-left: 50px;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 3px;
+  text-decoration: none;
+  background-color: var(--amarillo);
+}
+
+
+.politicasServis{
+  width: 100%;
+  display: flex;
+  border: 3px solid var(--azul);
+
+ 
+
+}
+
+.seccion1{
+  width: 50%;
+  
+}
+
+.separador2{
+  width: 10px;
+  background-color: var(--amarillo);
+  margin: 5%;
+
+}
+
+.seccion2{
+  width: 50%;
+  margin-right: 30px;
+
+}
+
+
+.seccion1 h2{
+  padding-left: 20px;
+  background-color: var(--azul);
+  color: white;
+  height: 50px;
+  line-height: 50px;
+}
+
+.itemsServicios {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.itemsServicios ul {
+  margin-top: 100px;
+}
+
+.itemsServicios li {
+  display: flex;
+
+  padding: 3px;
+}
+
+.itemsServicios i {
+  margin-right: 10px;
+}
+
+
+
+/* .politicas {
+  width: 100%;
+  color: aliceblue;
+  height: 230px;
+  background-color: var(--fondoBody);
+} */
+
+.itemsPoliticas {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.itemsPoliticas ul {
+  margin-top: 100px;
+}
+
+.itemsPoliticas li {
+  display: flex;
+  padding: 3px;
+}
+
+.itemsPoliticas i {
+  margin-right: 10px;
+}
+
+.mapa {
+  padding: 20px;
+}
+
+.promedioVal {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.valoraciones {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+  margin-left: 280px;
+  max-height: 100px;
+}
+.container-reservas{
+ padding: 5px;
+ margin-bottom: 30px;
+ background-image: url(../../../Img/image6.png);
+ background-size: 250% 800px;;
+ background-repeat: no-repeat;
+}
+
+.container-reservas .form-container{
+  height: 480px;
+  margin-top: -1px;
+  color: black;
+  margin-bottom: 100px;
+  
+}
+
+.container-reservas{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.form-container .fecha{
+
+  border: 2px solid var(--azul);
+  width: 300px;
+  height: 40px;
+  border-radius: 7px;
+}
+
+@media (max-width: 480px) {
+  .encabezado{
+   width: 100%;
+   height: 110px;
+  
+  }
+
+  .encabezado .favorito {
+    margin-right: -50px;
+  }
+
+  .encabezado .taller h1{
+    font-size:18px;
+  }
+
+  .encabezado .taller h6{
+    margin-top:23px;
+    font-size:10px;
+    text-align: justify;
+  }
+
+  .encabezado .taller span{
+    display: none;
+  }
+.valoraciones{
+  margin-left: 1px;
+  margin-top: 50px;
+}
+
+
+
+.flecha img{
+  margin-left: 9px;
+}
+  .containerImg{
+    width: 90%;
+    flex-direction: column;
+  }
+  .containerImg .imgSecundarias{
+    width: 100%;
+    margin: 15px;
+  }
+  .containerImg .imgSecundarias img{
+    width: 20%;
+   
+  }
+  .containerImg .imgPrincipal{
+    width: 100%;
+    
+  }
+
+  .politicasServis{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .politicasServis .seccion1{
+    width: 100%;
+  }
+
+  .politicasServis .seccion2{
+    width: 100%;
+  }
+
+  /* 
+   */
+
+   .container-reservas h1{
+    font-size: 20px;
+   }
+   
+
+}

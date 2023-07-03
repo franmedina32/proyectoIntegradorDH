@@ -1,0 +1,215 @@
+.modal {
+    display: flex;
+    flex-direction:row;
+}
+
+.cruzmod {
+    cursor: pointer;
+    border: 3px solid #ffde59;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.3rem;
+    margin-top: -370px;
+}
+
+  .politicasYservicios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+  }
+.cruzmod:hover {
+    color: red;
+}
+
+.cruzdiv {
+    display: flex;
+    width: 43%;
+    justify-content: flex-end;
+}
+
+.panelAdmin {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../../Img/image7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 3.5rem;
+ 
+}
+  
+.table th,.table td {
+    border: 1px solid #ccc;
+}
+  
+.table th {
+    background-color: #f0f0f0;
+}
+  
+.table td {
+    background-color: #fff;
+    padding: 5px;
+}
+  
+.table tr:hover {
+    background-color: #f8f8f8;
+}
+
+.arrowdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85px;
+    height: 50px;
+    margin-bottom: 100px;
+    margin-left: 50%;
+
+
+}
+
+#arrow {
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+#arrow:hover{
+    color: var(--amarillo);
+}
+
+.acciones-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los iconos, ajusta el valor según tus necesidades */
+  }
+  
+  .acciones-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .acciones-container button :hover{
+    font-size: 1.3rem;
+  }
+
+  .hbDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .hbDiv button {
+    height: 1.5rem;
+  }
+
+  .button{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+  }
+
+  .button:hover{
+    font-size: 1.25rem;
+  }
+
+
+  .containerTabla{
+    width: 100%;
+  }
+
+  .flecha{
+    margin-left: 90%;
+  }
+
+  .modalEliminar{
+
+   margin: 20% 34%;
+    border: 3px solid var(--azul);
+    background: white;
+
+    border-radius: 4px;
+
+    padding: 20px;
+    width: 30%;
+}
+  
+.botonesConfirmacion{
+
+  display: flex;
+  justify-content: space-between;
+}
+  
+
+  @media (max-width: 480px){
+    .panelAdmin{
+     margin-top: -1rem;
+     width:58%;
+     padding: 0 100px;
+     /* margin: 100px; */
+  
+    }
+    .containerTabla{
+      width:76%;
+      
+    }
+
+    .hbDiv{
+      width: 170%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      margin-left: -55px;
+      text-align: center;
+      flex-direction: column;
+
+    }
+
+    .tabla table{
+      background-color: #ffde59;
+      margin: 0 0 0 -130px;
+      width: 20%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      border: 1px solid #ddd;
+    }
+
+    .table td {
+      padding: 5px;
+  }
+
+
+.cruzdiv{
+  margin-top: 80%;
+  margin-left: 230px;
+}
+    
+
+.acciones-container{
+  display: block;
+}
+
+.panelAdmin .flecha{
+  margin-right: -100px;
+}
+
+.arrowdiv {
+  margin-left: 30%;
+}
+
+  }

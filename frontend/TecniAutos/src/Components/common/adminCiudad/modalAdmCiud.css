@@ -1,0 +1,24 @@
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cruzdiv{
+    margin-top: 20%;
+}
+
+@media(max-width:480px){
+    .formDiv{
+        width: 95%;
+        
+    }
+    .modal-content{
+        width: 70%;
+      
+    }
+    .cruzdiv{
+        margin-top: 90%;
+     
+    }
+}

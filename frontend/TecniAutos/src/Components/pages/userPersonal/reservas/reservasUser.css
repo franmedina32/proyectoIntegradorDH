@@ -1,0 +1,60 @@
+.reservas{
+    padding: 5px;
+    text-align: start;
+    background-color: var(--azul);
+    color: white;
+}
+.containerCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .reservasDiv h2{
+    padding: 10px;
+  }
+
+  
+  .divFuturas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+  }
+
+  .containerCardFuturas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+   width: 100%;
+  }
+
+.cardReservas{
+    background-color: white;
+    border: 3px solid var(--azul);
+    border-radius: 7px;
+    width: 25%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.containerCardReservas{
+    padding: 5px;
+}
+
+.pasadas{
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.7;
+    opacity: 0.5;
+    margin-bottom: 100px;
+}
+
+
+.cancelarReserva{
+    width: 20%;
+   
+
+}

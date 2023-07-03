@@ -1,0 +1,76 @@
+.table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 3.5rem;
+}
+  
+.table th,.table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+  
+.table th {
+    background-color: #f0f0f0;
+}
+  
+.table td {
+    background-color: #fff;
+}
+  
+.table tr:hover {
+    background-color: #f8f8f8;
+}
+
+.panelCiudades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divMensaje {
+    display: flex;
+    flex-direction: column;
+}
+
+.topPanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+.topPanel h1,button {
+    margin: 0 2rem;
+}
+
+.topPanel button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color:  #ffde59;
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    border-radius: 7.5px;
+  }
+
+@media(max-width:480px){
+    .panelCiudades{
+        margin-top: -1rem;
+    }
+
+    .topPanel{
+       font-size: 12px;
+       margin-top: 30px;
+   
+    }
+
+    .table{
+        margin: 0;
+    }
+
+    .panelCiudades .flecha{
+        margin-right: -370px;
+      }
+
+}

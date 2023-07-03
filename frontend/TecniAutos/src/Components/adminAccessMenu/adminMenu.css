@@ -1,0 +1,106 @@
+.adminMenuDiv {
+ 
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-tecnologia-estructura-metalica-abstracta-gris_53876-101941.jpg?t=st=1687278324~exp=1687278924~hmac=86c74625e25343dac191a23486dce4911308e1f202cff13cde873d9f9c24d90c);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.adminNav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.holaAdmin{
+    width: 730px;
+    height: 80px;
+    /* background-color: var(--amarillo); */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: rgb(55, 54, 54);
+}
+
+.adminNav h3 {
+    width: 190px;
+    height: 30px;
+    margin: 0px 7.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid var(--azul);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.adminNav :hover{
+    background-color: var(--amarillo);
+}
+.opcionAdmin{
+    display: block;
+    font-size: 18px;
+    color: rgb(55, 54, 54);
+   
+}
+
+/* .adminNav h4:hover {
+    font-size: 1.2rem;
+} */
+
+
+@media (max-width: 480px){
+    .adminMenuDiv{
+        width: 170%;
+        margin-bottom: 30px;
+        margin-top: -5px;
+    }
+
+    .adminNav{
+        width: 100%;
+    }
+
+.adminNav h3{
+        width: 190px;
+        height: 30px;
+        border: 1px solid var(--azul);
+        margin-bottom: 20px;
+    }
+
+    .opcionAdmin{
+        display: block;
+        font-size: 13px;
+        color: rgb(55, 54, 54);
+       
+    }
+
+    .holaAdmin{
+        width: 430px;
+        height: 80px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        margin-left: 22px;
+        margin-bottom: 10px;
+        color: rgb(55, 54, 54);
+    }
+
+    .holaAdmin h2{
+      text-align: center;
+      font-size: 20px;
+    
+    }
+    
+}
+
+@media (max-width: 1042px) {
+    .adminMenuDiv{
+        width: 100%;
+    
+    }
+}

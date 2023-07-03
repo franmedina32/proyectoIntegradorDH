@@ -1,0 +1,72 @@
+.politicasYservicios{
+    margin-top: 20px;
+  
+}
+
+.seccion-politicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listado-politicas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.listado-servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.listado-imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.elementoLista {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+
+.agregarListBt {
+    background-color: #1976d2;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 4px 8px;
+}
+
+
+.agregarListBt:hover {
+    color: black;
+    background-color: #1976d2;
+    cursor: pointer;
+}
+
+.agregarListInput {
+    padding: 10px;
+}

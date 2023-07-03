@@ -1,0 +1,13 @@
+.panelCategorias .cruzdiv{
+    margin-top: 15%;
+}
+
+@media (max-width: 480px){
+    .panelCategorias .table {
+        margin-left: 30px;
+    }
+
+    .arrowdiv {
+        margin-left: 40%;
+    }
+}

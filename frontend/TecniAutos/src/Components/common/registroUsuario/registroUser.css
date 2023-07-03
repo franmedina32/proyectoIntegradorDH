@@ -1,0 +1,57 @@
+.containerForm {
+  border-radius: 15px;
+  display: flex;
+  background-color: var(--azul);
+  margin: 20px;
+  width: auto;
+  
+}
+.imgRegistro{
+  width: 50%;
+  background-color: white;
+  text-align:right ;
+}
+
+.imgRegistro img{
+  width: 550px;
+  height: 680px;
+  
+
+}
+
+
+
+.form-container {
+  width: 35%;
+  height: 430px;
+  border-radius: 31px;
+  padding: 25px;
+  text-align: center;
+  margin-top: 105px;
+  margin-bottom: 100px;
+  background-color: white;
+  box-shadow: 30px 30px 30px  rgba(3, 2, 2, 0.563);
+}
+
+/* responsive*/
+
+@media (max-width: 480px) {
+
+  .containerForm{
+  
+    height: 530px;
+    margin-bottom: 100px;
+    background-image: url(../../../Img/image6.png);
+    background-size: 250% 600px;;
+    background-repeat: no-repeat;
+  }
+  .imgRegistro{
+    display: none;
+  }
+
+  .form-container{
+    margin-top: 40px;
+    width: 70%;
+    height: 400px;
+  }
+}

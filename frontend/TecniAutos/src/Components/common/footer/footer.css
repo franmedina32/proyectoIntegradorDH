@@ -1,0 +1,58 @@
+footer .containerFooter {
+  width: 100%;
+  background-color: #004aad;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.redes {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.redes img {
+  background-color: #1a4ca7;
+  width: 30px;
+  height: 30px;
+}
+
+.shareFooter {
+  display: flex;
+}
+
+.react-share__ShareButton {
+  margin: 10px;
+}
+
+#compartirHome {
+  border: none;
+  background-color: #004aad;
+  margin-right: 20px;
+}
+
+
+.Copy {
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+    footer{
+        width: 100%;
+    }
+
+    footer .containerFooter  a {
+       display: none;
+    }
+
+    .redes{
+        margin-right: 100px;
+    }
+
+    .separador{
+        margin-top: 350px;
+    }
+  }

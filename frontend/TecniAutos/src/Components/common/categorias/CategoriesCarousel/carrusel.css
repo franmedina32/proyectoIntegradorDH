@@ -1,0 +1,25 @@
+
+
+@media (max-width: 480px) {
+
+    .carrusel-container {
+      display: flex;
+      justify-content: center;
+     
+    }
+    .carrusel-item{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .carrusel-item img{
+       display: none;
+
+      }
+
+      .carrusel-item h3 {
+        border-radius: 10px;
+
+      }
+  }
+  

@@ -1,0 +1,88 @@
+/* .containerNav{
+display: none;
+}
+
+
+nav .buscador {
+display: none;
+} */
+.containerLoginForm {
+
+
+display: flex;
+height: 570px;
+margin: 20px;
+display: flex;
+background-color: white;
+border-radius: 15px;
+}
+
+
+.imgLogin{
+width: 50%;
+text-align: center;
+height: 570px;
+background-color: var(--azul);
+border-radius:9px;
+box-shadow: 10px 10px 10px rgba(3, 2, 2, 0.44)
+
+
+}
+.imgLogin img{
+width: 550px;
+height: 570px;
+/* border-right: 7px solid var(--amarillo) ; */
+}
+
+
+.form-login-container {
+margin-top: 80px;
+width: 30%;
+border-radius: 10px;
+padding: 30px;
+text-align: center;
+height: 360px;
+border: 2px solid rgb(119, 119, 119);
+
+
+}
+
+
+.registrarte button{
+color: gray;
+font-size: 15px;
+text-decoration: underline;
+border: none;
+background-color: white;
+}
+
+
+/*Responsive*/
+
+
+@media (min-width:481px) and (max-width: 1042px)
+{
+
+
+.containerLoginForm{
+margin-bottom: 100px;
+height: 532px;
+background-image: url(../../../Img/image6.png);
+background-size: 250% 600px;;
+background-repeat: no-repeat;
+background-color: var(--azul);
+}
+.imgLogin{
+display: none;
+}
+
+
+.form-login-container{
+width: 60%;
+margin-top: 57px;
+background-color: white;
+border: none;
+}
+
+
+}

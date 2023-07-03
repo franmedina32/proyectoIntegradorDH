@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.backendPIG6.BackendPiG6ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 62.336 s - in com.example.backendPIG6.BackendPiG6ApplicationTests

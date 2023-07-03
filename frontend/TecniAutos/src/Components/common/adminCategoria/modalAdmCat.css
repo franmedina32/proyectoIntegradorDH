@@ -1,0 +1,22 @@
+#formRegistroCat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 430px;
+    border-radius: 10px;
+    
+}
+
+.divInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    width: 90%;
+    height: 100%;
+    padding: auto;
+}
+
+
+

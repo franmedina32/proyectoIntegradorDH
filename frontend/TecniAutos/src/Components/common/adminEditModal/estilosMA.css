@@ -1,0 +1,123 @@
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    max-height:80vh; /* Establece una altura máxima para el contenido del modal */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si el contenido se desborda */
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Resto de estilos... */
+  
+  .Edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+  .cruzdiv{
+    margin-top: 11%;
+    margin-left: 20%;
+  }
+
+  .Edit .buttonEdit{
+    width: 20%;
+    margin: 20px;
+    
+  }
+  .formdiv {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formdiv input {
+    margin-bottom: 10px;
+  }
+  
+  .formdiv button {
+    margin-top: 10px;
+  }
+  
+  .cruzmod {
+    float: right;
+    cursor: pointer;
+  }
+  
+  .cruzdiv {
+    text-align: right;
+  }
+  
+  
+
+
+
+
+
+.imgdiv {
+    width: 85%;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5rem black;
+
+}
+
+.servdiv {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    background-color: gainsboro;
+}
+
+.imglabel{
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+}
+
+.imginpdiv {
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+}
+
+#inputSer{
+    margin-right: 2rem;
+    border: 2px solid  #ffde59;
+    height: 1.3rem;
+    border-radius: 5px;
+}
+
+
+.button{
+    color: #000000;
+    background-color: #ffde59;
+    border: solid 2px #ffde59;
+    border-radius: 8.5px;
+}
+
+#butonSer{
+    width: 90px;
+    height: 30px;
+}
+
+#buttonSub {
+    width: 90px;
+    height: 30px;
+}
+
+#formEditTall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 600px;
+}

@@ -1,0 +1,122 @@
+.talleres-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloCategoria {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.cardInfoTaller {
+  padding: 10px;
+  width: 70%;
+  height: 210px;
+  background-color: #fff;
+  display: flex;
+  margin-top: 50px;
+  border: solid 1px var(--azul);
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+
+.cardInfoTaller:last-child {
+  margin-bottom: 120px;
+}
+
+.imgCategoria img {
+  width: 90%;
+  height: 180px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.infoTaller {
+  width: 407px;
+  height: 30px;
+  text-align: justify;
+  margin-top: 30px;
+}
+.infoTaller h2 {
+  margin-top: -1px;
+}
+
+.infoTaller p {
+  margin: 5px;
+}
+
+.lineaSeparador {
+  border-left: thick solid var(--azul);
+  margin-top: 30px;
+  height: 70%;
+  margin-left: 2%;
+}
+.verMas {
+  width: 188px;
+  height: 46px;
+  border-radius: 34px;
+  background-color: var(--amarillo);
+  margin-top: 75px;
+  border: none;
+  font-size: 20px;
+}
+
+button:hover {
+  background: #ffde59;
+  color: black;
+  font-weight: bold;
+}
+
+.verMas button {
+  border: none;
+  background: none;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 480px){
+
+  .Nav{
+    display: none;
+  }
+
+  .flecha{
+    margin-top: -200px;
+  }
+ .talleres-container .cardInfoTaller {
+    height: 310px;
+    flex-direction: column;
+  }
+
+  .cardInfoTaller .imgCategoria img{
+    margin-top: -138px;
+    width: 118.5%;
+   margin-left: -10px;
+   height: 150px;
+  }
+
+  .infoTaller{
+    margin-top: -113px;
+    
+  }
+
+  .infoTaller p{
+    width:80%;
+  }
+
+  .infoTaller h2{
+    font-size: 20px;
+    width:80%;
+  }
+  .cardInfoTaller .verMas{
+    display: none;
+  }
+  .cardInfoTaller .lineaSeparador{
+    display: none;
+  }
+}
